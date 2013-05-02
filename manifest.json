@@ -1,0 +1,17 @@
+{   
+  "name": "Gif Babble",
+  "description": "Quick access to your Gig Babble animated gif collection",
+  "permissions": [ "tabs", "http://www.gifbabble.com/*" ],
+  "version": "1",
+  "manifest_version":2,
+  "icons": { 
+    "16": "img/youtube-image-previews-icon-16.png",
+    "48": "img/youtube-image-previews-icon-48.png",
+    "128": "img/youtube-image-previews-icon-128.png"
+  },
+  "browser_action": {
+    "default_icon": "img/youtube-image-previews-icon-19.png",
+    "default_title": "Gif Babble animations",
+    "default_popup": "popup.html"
+  }
+}

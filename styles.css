@@ -1,0 +1,57 @@
+body {
+  background: #111;
+}
+
+#animated-gifs,
+#featured-animated-gif {
+  width: 440px;
+}
+
+#animated-gifs {
+  width: 440px;
+
+  /* Prevent vertical gaps */
+  line-height: 0;
+
+  -webkit-column-count: 5;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    5;
+  -moz-column-gap:      0px;
+  column-count:         5;
+  column-gap:           0px;
+}
+
+#animated-gifs img {
+  cursor: pointer;
+  width: 100px;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+#animated-gifs {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+}
+
+#featured-animated-gif figure {
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+
+#featured-animated-gif figcaption {
+  font-family: Verdana, Helvetica, 'Sans Serif';
+  color: #fefefe;
+}
+
+#featured-animated-gif img {
+  max-width: 98%;
+}
+
+#featured-animated-gif input {
+  width: 100%;
+  padding: 2px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
